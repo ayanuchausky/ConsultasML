@@ -30,9 +30,9 @@ public class MlApplication {
 	public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
 		return args -> {
 			
-			List<String> users = new ArrayList<String>();
+			List<String> sellers = new ArrayList<String>();
 
-			users.add("179571326");
+			sellers.add("179571326");
 
 			boolean append = true;
 			FileHandler handler = new FileHandler("default.log", append);
@@ -41,12 +41,12 @@ public class MlApplication {
 			logger.addHandler(handler);
 			logger.setUseParentHandlers(false);
 			
-			for (int i = 0; i < users.size(); i++) {
+			for (int i = 0; i < sellers.size(); i++) {
 				
 				System.out.println("Realizando consultas...");
 				Datos datos = restTemplate.getForObject(
-						"https://api.mercadolibre.com/sites/MLA/search?seller_id=" + users.get(i), Datos.class);
-				logger.info("USER_ID: " + users.get(i));
+						"https://api.mercadolibre.com/sites/MLA/search?seller_id=" + sellers.get(i), Datos.class);
+				logger.info("USER_ID: " + sellers.get(i));
 				
 				for (int j = 0; j < datos.getResults().length; j++) {
 					
@@ -59,7 +59,7 @@ public class MlApplication {
 							+ categoria.getName());
 				}
 				
-				System.out.println("Consulta finalizada para usuario " + users.get(i) + "!");
+				System.out.println("Consulta finalizada para usuario " + sellers.get(i) + "!");
 			}
 		};
 	}
