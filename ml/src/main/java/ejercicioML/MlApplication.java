@@ -46,13 +46,13 @@ public class MlApplication {
 				System.out.println("Realizando consultas...");
 				Datos datos = restTemplate.getForObject(
 						"https://api.mercadolibre.com/sites/MLA/search?seller_id=" + users.get(i), Datos.class);
+				logger.info("USER_ID: " + users.get(i));
 				
 				for (int j = 0; j < datos.getResults().length; j++) {
 					
 					Categoria categoria = restTemplate.getForObject(
 							"https://api.mercadolibre.com/categories/" + datos.getResults()[j].getCategory_id(),
 							Categoria.class);
-					logger.info("USER_ID: " + users.get(i));
 					logger.info("ID: " + datos.getResults()[j].getId() + " || " + "TITLE: "
 							+ datos.getResults()[j].getTitle() + " || " + "CATEGORY_ID: "
 							+ datos.getResults()[j].getCategory_id() + " || " + "CATEGORY_NAME: "
