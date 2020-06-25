@@ -1,0 +1,145 @@
+# Created at 2020-06-24T12:03:31.549
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-06-24T12:03:31.566
+Unexpected IOException with stream: 12:03:31.562 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+
+
+# Created at 2020-06-24T12:03:31.586
+Unexpected IOException with stream: 12:03:31.585 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+
+
+# Created at 2020-06-24T12:03:31.648
+Unexpected IOException with stream: 12:03:31.648 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [ejercicioML.MlApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+
+
+# Created at 2020-06-24T12:03:31.671
+Unexpected IOException with stream: 12:03:31.671 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [ejercicioML.MlApplicationTests], using SpringBootContextLoader
+
+
+# Created at 2020-06-24T12:03:31.678
+Unexpected IOException with stream: 12:03:31.677 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [ejercicioML.MlApplicationTests]: class path resource [ejercicioML/MlApplicationTests-context.xml] does not exist
+
+
+# Created at 2020-06-24T12:03:31.678
+Unexpected IOException with stream: 12:03:31.678 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [ejercicioML.MlApplicationTests]: class path resource [ejercicioML/MlApplicationTestsContext.groovy] does not exist
+
+
+# Created at 2020-06-24T12:03:31.679
+Unexpected IOException with stream: 12:03:31.679 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [ejercicioML.MlApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2020-06-24T12:03:31.680
+Unexpected IOException with stream: 12:03:31.680 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [ejercicioML.MlApplicationTests]: MlApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2020-06-24T12:03:31.729
+Unexpected IOException with stream: 12:03:31.729 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [ejercicioML.MlApplicationTests]
+
+
+# Created at 2020-06-24T12:03:31.831
+Unexpected IOException with stream: 12:03:31.831 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\Intel\eclipse-workspace\ml\target\classes\ejercicioML\MlApplication.class]
+
+
+# Created at 2020-06-24T12:03:31.833
+Unexpected IOException with stream: 12:03:31.833 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration ejercicioML.MlApplication for test class ejercicioML.MlApplicationTests
+
+
+# Created at 2020-06-24T12:03:31.970
+Unexpected IOException with stream: 12:03:31.970 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [ejercicioML.MlApplicationTests]: using defaults.
+
+
+# Created at 2020-06-24T12:03:31.972
+Unexpected IOException with stream: 12:03:31.972 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2020-06-24T12:03:31.986
+Unexpected IOException with stream: 12:03:31.986 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+
+
+# Created at 2020-06-24T12:03:31.988
+Unexpected IOException with stream: 12:03:31.987 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+
+
+# Created at 2020-06-24T12:03:31.988
+Unexpected IOException with stream: 12:03:31.988 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@26e356f0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47d9a273, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b8ee4de, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@27f981c6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1b11171f, org.springframework.test.context.event.EventPublishingTestExecutionListener@1151e434, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2dc54ad4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4659191b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@55634720, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4b0d79fc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4c1909a3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@428640fa]
+
+
+# Created at 2020-06-24T12:03:31.993
+Unexpected IOException with stream: 12:03:31.992 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@783a467b testClass = MlApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@272113c4 testClass = MlApplicationTests, locations = '{}', classes = '{class ejercicioML.MlApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5223e5ee, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@22a637e7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@70e8f8e, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1139b2f3, org.springframework.boot.test.context.SpringBootTestArgs@1], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+
+# Created at 2020-06-24T12:03:32.030
+Unexpected IOException with stream: 12:03:32.029 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+
+# Created at 2020-06-24T12:03:32.433
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-24T12:03:32.433
+Unexpected IOException with stream:   .   ____          _            __ _ _
+
+
+# Created at 2020-06-24T12:03:32.434
+Unexpected IOException with stream:  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+
+
+# Created at 2020-06-24T12:03:32.434
+Unexpected IOException with stream: ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+
+
+# Created at 2020-06-24T12:03:32.435
+Unexpected IOException with stream:  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+
+
+# Created at 2020-06-24T12:03:32.435
+Unexpected IOException with stream:   '  |____| .__|_| |_|_| |_\__, | / / / /
+
+
+# Created at 2020-06-24T12:03:32.436
+Unexpected IOException with stream:  =========|_|==============|___/=/_/_/_/
+
+
+# Created at 2020-06-24T12:03:32.437
+Unexpected IOException with stream:  :: Spring Boot ::        (v2.3.1.RELEASE)
+
+
+# Created at 2020-06-24T12:03:32.438
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-24T12:03:32.651
+Unexpected IOException with stream: 2020-06-24 12:03:32.650  INFO 140 --- [           main] ejercicioML.MlApplicationTests           : Starting MlApplicationTests on DESKTOP-QQJT1CK with PID 140 (started by Intel in C:\Users\Intel\eclipse-workspace\ml)
+
+
+# Created at 2020-06-24T12:03:32.653
+Unexpected IOException with stream: 2020-06-24 12:03:32.652  INFO 140 --- [           main] ejercicioML.MlApplicationTests           : No active profile set, falling back to default profiles: default
+
+
+# Created at 2020-06-24T12:03:34.344
+Unexpected IOException with stream: 2020-06-24 12:03:34.343  INFO 140 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2020-06-24T12:03:34.640
+Unexpected IOException with stream: 2020-06-24 12:03:34.639  INFO 140 --- [           main] ejercicioML.MlApplicationTests           : Started MlApplicationTests in 2.594 seconds (JVM running for 3.853)
+
+
+# Created at 2020-06-24T12:03:34.664
+Unexpected IOException: 5,1,ejercicioML.MlApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2020-06-24T12:03:34.960
+Unexpected IOException: 6,1,ejercicioML.MlApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2020-06-24T12:03:34.964
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,ejercicioML.MlApplicationTests,null,null,null
+
+
